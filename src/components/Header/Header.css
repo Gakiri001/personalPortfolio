@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+.header .header1{
+    width: 20%;
+}
+.header .header2 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+.header .header2 ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header .header2 ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
