@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <Routes>
+    <Routes className="bg-yellow-800">
       <Route path="/" element={<Header />} />
     </Routes>
   );

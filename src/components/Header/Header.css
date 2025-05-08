@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    height: 20vh;
 }
 .header .header1{
     width: 20%;
@@ -11,6 +11,10 @@
     width: 40%;
     display: flex;
     align-items: center;
+    background-color: #aaa8a8;
+    height: 100%;
+    padding: 0 20px;
+    border-radius: 5px;
 
 }
 .header .header2 ul{
@@ -22,4 +26,12 @@
     list-style: none;
     display: flex;
     align-items: center;
+}
+.header .header2 ul li .link{
+    text-decoration: none;
+    color: #000;
+}
+
+.header .header2 ul li .link:hover{
+    color: #6d6b6b;
 }
