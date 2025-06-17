@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import "./Home.css"
@@ -18,16 +18,16 @@ function Home() {
       </div>
       <div className="divLinks">
         <a href="">
-          <FaLinkedin className="reactIcons" />
+          <FaLinkedin className="reactIcons text-blue-900" />
         </a>
         <a href="">
-          <FaXTwitter className="reactIcons" />
+          <FaSquareXTwitter className="reactIcons" />
         </a>
         <a href="">
-          <FaYoutube  className="reactIcons"/>
+          <FaYoutube  className="reactIcons text-red-700"/>
         </a>
         <a href="">
-          <FaFacebook className="reactIcons" />
+          <FaFacebook className="reactIcons text-blue-900" />
         </a>
       </div>
     </div>
