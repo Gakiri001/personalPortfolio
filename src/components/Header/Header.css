@@ -1,37 +1,43 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: #f5f2f2;
 }
-.header .header1{
-    width: 20%;
+.header .header1 {
+  width: 20%;
+  padding: 2rem;
+}
+.header .header1 img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
 }
 .header .header2 {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    background-color: #aaa8a8;
-    height: 100%;
-    padding: 0 20px;
-    border-radius: 5px;
-
+  width: 60%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  border-radius: 5px;
 }
-.header .header2 ul{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.header .header2 ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
-.header .header2 ul li{
-    list-style: none;
-    display: flex;
-    align-items: center;
+.header .header2 ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
-.header .header2 ul li .link{
-    text-decoration: none;
-    color: #000;
+.header .header2 ul li .link {
+  text-decoration: none;
+  color: #000;
 }
 
-.header .header2 ul li .link:hover{
-    color: #6d6b6b;
+.header .header2 ul li .link:hover {
+  color: #6d6b6b;
 }

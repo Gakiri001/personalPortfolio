@@ -1,11 +1,15 @@
 import Header from "./components/Header/Header";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <Routes className="bg-yellow-800">
-      <Route path="/" element={<Header />} />
-    </Routes>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
