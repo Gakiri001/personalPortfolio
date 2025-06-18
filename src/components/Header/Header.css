@@ -36,6 +36,7 @@
 .header .header2 ul li .link {
   text-decoration: none;
   color: #000;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .header .header2 ul li .link:hover {

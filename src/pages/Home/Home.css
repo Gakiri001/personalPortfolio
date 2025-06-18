@@ -1,51 +1,57 @@
-.Home{
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.Home {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.Home .me h2{
-    font-size: 100px;
-    font-weight: lighter;
+.Home .me h2 {
+  font-size: 100px;
+  font-weight: lighter;
+  /* font-family: 'Times New Roman', Times, serif; */
 }
-.Home .div-buttons{
-    width: 60%;
-    display: flex;
-    justify-content: space-evenly;
+.Home .div-buttons {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
 }
-.Home .div-buttons .buttonMore{
-    font-size: 20px;
-    border: 1px solid gray;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
+.Home .div-buttons .buttonMore {
+  font-size: 20px;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
 }
-.Home .div-buttons .buttonMore:hover{
-    background-color: gray;
-    color: white;
+.Home .div-buttons .buttonMore:hover {
+  background-color: gray;
+  color: white;
 }
-.Home .div-buttons .buttonDownload{
-    font-size: 20px;
-    background-color: gray;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    cursor: pointer;
+.Home .div-buttons .buttonDownload {
+  font-size: 20px;
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
 }
-.Home .div-buttons .buttonDownload:hover{
-    border: 1px solid gray;
-    color: black;
-    background-color: white;
+.Home .div-buttons .buttonDownload:hover {
+  border: 1px solid gray;
+  color: black;
+  background-color: white;
 }
-.Home .divLinks{
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
-    margin-top: 1rem;
+.Home .divLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin-top: 1rem;
 }
-.Home .divLinks a .reactIcons{
-    width: 30px;
-    height: 30px;
-    font-weight: lighter;
+.Home .divLinks a .reactIcons {
+  width: 30px;
+  height: 30px;
+  font-weight: lighter;
+}
+.Home .divLinks a .reactIcons:hover{
+     animation: bounce-up 0.5s ease;
 }
