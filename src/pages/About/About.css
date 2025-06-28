@@ -12,52 +12,51 @@
   font-size: 35px;
   font-weight: lighter;
   font-style: italic;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .parentforAbout .headingforAbout .aboutIcon {
   font-size: 30px;
   color: gray;
 }
-.parentforAbout .aboutMeSection{
-    display: flex;
-    padding: 1rem;
-    justify-content: space-between;
+.parentforAbout .aboutMeSection {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
 }
-.parentforAbout .aboutMeSection .infoPart{
-    width: 50%;
+.parentforAbout .aboutMeSection .infoPart {
+  width: 50%;
 }
-.parentforAbout .aboutMeSection .infoPart h2{
-     font-size: 25px;
-    font-weight: lighter;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
+.parentforAbout .aboutMeSection .infoPart h2 {
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
 }
-.parentforAbout .aboutMeSection .infoPart p{
-     line-height: 1.5rem;
-     font-family: 'Times New Roman', Times, serif;
+.parentforAbout .aboutMeSection .infoPart p {
+  line-height: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
 }
-.parentforAbout .aboutMeSection .infoPart .aboutParagraph{
-    margin-bottom: 2rem;
+.parentforAbout .aboutMeSection .infoPart .aboutParagraph {
+  margin-bottom: 2rem;
 }
-.parentforAbout .aboutMeSection .infoPart .line{
-    background-color: black;
-    height: 1px;
+.parentforAbout .aboutMeSection .infoPart .line {
+  background-color: black;
+  height: 1px;
 }
-.parentforAbout .aboutMeSection .infoPart .personalDetails{
-    margin-top: 1rem;
+.parentforAbout .aboutMeSection .infoPart .personalDetails {
+  margin-top: 1rem;
 }
-.parentforAbout .aboutMeSection .infoPart .personalIntel{
-    margin-bottom: 0.8rem;
+.parentforAbout .aboutMeSection .infoPart .personalIntel {
+  margin-bottom: 0.8rem;
 }
-.parentforAbout .aboutMeSection .infoPart .personalIntel span{
-    font-weight: bold;
+.parentforAbout .aboutMeSection .infoPart .personalIntel span {
+  font-weight: bold;
 }
-.parentforAbout .aboutMeSection .imagePart{
-    width: 40%;
+.parentforAbout .aboutMeSection .imagePart {
+  width: 40%;
 }
-.parentforAbout .aboutMeSection .imagePart img{
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
+.parentforAbout .aboutMeSection .imagePart img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
 }
-

@@ -1,0 +1,72 @@
+.skills {
+}
+.skills .skillsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px black;
+  height: 10vh;
+  padding: 1rem;
+}
+.skills .skillsHeader h2 {
+  font-size: 35px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.skills .skillsHeader .skillIcon {
+  font-size: 30px;
+  color: gray;
+}
+.skills section .fullstack {
+  padding: 1rem;
+}
+.skills section .fullstack h2 {
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.skills section .fullstack .fullstackDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.skills section .fullstack .fullstackDetails .frontend {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 40%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.skills section .fullstack .fullstackDetails .frontend h3 {
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.skills section .fullstack .fullstackDetails .frontend div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.skills section .fullstack .fullstackDetails .frontend div p {
+  font-size: 15px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+.skills section .fullstack .fullstackDetails .frontend .skillbg {
+  width: 100%;
+  background-color: gray;
+  height: 10px;
+  border-radius: 10px;
+}
+.skills section .fullstack .fullstackDetails .frontend .skillbg .skillonTopDiv {
+  width: 75%;
+  background-color: rgb(61, 60, 60);
+  height: 10px;
+}

@@ -23,6 +23,10 @@
   padding: 0 20px;
   border-radius: 5px;
 }
+.header .header2 .close,
+.header .header2 .hamburger {
+  display: none;
+}
 .header .header2 ul {
   display: flex;
   justify-content: space-between;
@@ -36,9 +40,78 @@
 .header .header2 ul li .link {
   text-decoration: none;
   color: #000;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .header .header2 ul li .link:hover {
   color: #6d6b6b;
+}
+
+@media screen and (max-width: 44.375em) {
+  .header {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .header .header1 {
+    width: 40%;
+  }
+  .header .header2 {
+    justify-content: flex-end;
+  }
+  .header .header2 .close {
+    width: 30px;
+    height: 30px;
+    background-color: var(--color1);
+    color: black;
+    display: grid;
+    place-content: center;
+    font-size: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0.2rem;
+  }
+  .header .header2 .hamburger {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color1);
+    color: black;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .header .header2 .close,
+  .header .header2 .hamburger {
+    display: initial;
+  }
+  .header .header2 ul {
+    position: absolute;
+    padding: 2rem;
+    top: -1rem;
+    right: -280px;
+    width: 220px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(1.5px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 0.3s ease;
+  }
+  .header .header2.active ul {
+    right: 0;
+  }
+  .header .header2 ul li {
+    padding: 20px 0 20px 40px;
+    margin-left: 0;
+  }
+  .header .header2 ul li .link {
+    padding: 0.2rem 0.4rem;
+    border-radius: 10px;
+  }
 }

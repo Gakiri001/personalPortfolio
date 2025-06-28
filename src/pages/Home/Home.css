@@ -21,7 +21,7 @@
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .Home .div-buttons .buttonMore:hover {
   background-color: gray;
@@ -34,7 +34,7 @@
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .Home .div-buttons .buttonDownload:hover {
   border: 1px solid gray;
@@ -52,6 +52,6 @@
   height: 30px;
   font-weight: lighter;
 }
-.Home .divLinks a .reactIcons:hover{
-     animation: bounce-up 0.5s ease;
+.Home .divLinks a .reactIcons:hover {
+  animation: bounce-up 0.5s ease;
 }
