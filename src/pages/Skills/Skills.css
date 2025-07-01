@@ -71,9 +71,8 @@
   height: 10px;
   border-radius: 10px;
 }
-.skills section .accountant .fullstackDetails .frontend .skillbg .skillonTopDiv, 
+.skills section .accountant .fullstackDetails .frontend .skillbg .skillonTopDiv,
 .skills section .fullstack .fullstackDetails .frontend .skillbg .skillonTopDiv {
-  width: 75%;
   background-color: rgb(61, 60, 60);
   height: 10px;
 }

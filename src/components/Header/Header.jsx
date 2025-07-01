@@ -11,14 +11,13 @@ function Header() {
   const handleMenuOpen = () => {
     // setMenuOpen(true);
     console.log("open");
-    
   };
 
   const handleMenuClose = () => {
     setMenuOpen(false);
   };
   console.log("Hello");
-  
+
   return (
     <div className="header">
       <div className="header1">
@@ -45,7 +44,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link onClick={handleMenuClose} className="link" to="">
+            <Link onClick={handleMenuClose} className="link" to="/resume">
               Resume
             </Link>
           </li>

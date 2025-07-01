@@ -14,31 +14,29 @@ function About() {
         <div className="infoPart">
           <h2>Full-Stack Developer, Junior Accountant</h2>
           <p className="aboutParagraph">
-            A skilled web developer and accountant. Proficient in both front-end
-            and back-end technologies, including HTML5, CSS3,JS, React, Node.js,
-            and RESTful APIs. Experienced in database management with MySQL,
-            PostgreSQL, and MongoDB. Adept at using design tools like Adobe
-            Photoshop and Figma to create visually appealing interfaces. GitHub
-            profile:{" "}
+            A skilled web developer and accountant(CPA). Experienced in
+            front-end and back-end technologies like HTML5, CSS3,JS, React,
+            Node.js, and RESTful APIs. Experienced in database management with
+            MySQL, PostgreSQL, and MongoDB. Experienced in using design tools
+            like Adobe Photoshop and Figma to create beautiful interfaces.
+            GitHub profile:{" "}
             <a className="underline" href="https://github.com/Gakiri001/">
               https://github.com/Gakiri001/
             </a>
             <br /> <br />
-            Strong background in financial statement preparation, auditing
-            procedures, risk assessment, budgeting, and forecasting. Utilises
-            advanced Excel for economic modelling and data analysis. Committed
-            to leveraging technical skills to drive innovation in web
-            development while maintaining a strong foundation in accounting
-            practices.
+            High-quality experience in the preparation of accounting statements,
+            auditing procedures, risk analysis, budgeting, and forecasting.
+            Utilizes sophisticated Excel in economic modeling and data analysis.
+            Committed to applying technical skills to further web development
+            while maintaining a strong grounding in accounting procedures.
             <br /> <br />
-            Possesses strong problem-solving and critical thinking skills, with
-            a keen ability to make strategic decisions. Demonstrated leadership
-            and effective team management in collaborative environments. Highly
-            adaptable to change, with excellent time management and
-            organizational abilities. Skilled in both verbal and written
-            communication, fostering productive teamwork and collaboration.
-            Emotionally intelligent and capable of navigating diverse team
-            dynamics to achieve common goals.
+            Apt problem-solving and critical thinking skills, such as making
+            strategic choices. Strong leadership and team management in various
+            environments. Highly adaptable to change, with strong organizational
+            and time management skills. Strong verbal and written communication
+            skills, enabling effective collaboration and teamwork. Emotionally
+            intelligent and capable of handling mixed team dynamics for mutual
+            goals.
           </p>
           <div className="line"></div>
           <h2 className="personalDetails">Personal Information</h2>
