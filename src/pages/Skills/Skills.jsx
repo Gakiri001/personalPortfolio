@@ -14,63 +14,99 @@ function Skills() {
           <h2>Full-stack skills</h2>
           <div className="fullstackDetails">
             <div className="frontend">
-              <h3>Front-end </h3>
+              <h3>Front-end Technologies</h3>
               <div>
+                <p>HTML/CSS</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
+                <p>JavaScript</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
                 <p>React</p>
                 <div className="skillbg">
                   <div className="skillonTopDiv"></div>
                 </div>
               </div>
               <div>
-                <p>React</p>
+                <p>Angular</p>
                 <div className="skillbg">
                   <div className="skillonTopDiv"></div>
                 </div>
               </div>
               <div>
-                <p>React</p>
-                <div className="skillbg">
-                  <div className="skillonTopDiv"></div>
-                </div>
-              </div>
-            </div>
-            <div className="frontend">
-              <h3>Front-end </h3>
-              <div>
-                <p>React</p>
-                <div className="skillbg">
-                  <div className="skillonTopDiv"></div>
-                </div>
-              </div>
-              <div>
-                <p>React</p>
-                <div className="skillbg">
-                  <div className="skillonTopDiv"></div>
-                </div>
-              </div>
-              <div>
-                <p>React</p>
+                <p>Tailwind CSS</p>
                 <div className="skillbg">
                   <div className="skillonTopDiv"></div>
                 </div>
               </div>
             </div>
             <div className="frontend">
-              <h3>Front-end </h3>
+              <h3>Back-end Technologies</h3>
               <div>
-                <p>React</p>
+                <p>Node.js</p>
                 <div className="skillbg">
                   <div className="skillonTopDiv"></div>
                 </div>
               </div>
               <div>
-                <p>React</p>
+                <p>Express.js</p>
                 <div className="skillbg">
                   <div className="skillonTopDiv"></div>
                 </div>
               </div>
               <div>
-                <p>React</p>
+                <p>Python</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
+                <p>Django</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
+                <p>Laravel(PHP)</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+            </div>
+            <div className="frontend">
+              <h3>Database</h3>
+              <div>
+                <p>MySQL</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+              <div>
+                <p>PostgreSQL</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+              <div>
+                <p>MongoDB</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+                  <div>
+                <p>Prisma ORM</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+                  <div>
+                <p>Mongoose</p>
                 <div className="skillbg">
                   <div className="skillonTopDiv"></div>
                 </div>
@@ -79,7 +115,60 @@ function Skills() {
           </div>
         </div>
         <div className="accountant">
-          <h2>Accountant Skills</h2>
+          <h2>Accountant (CPA)</h2>
+          <div className="fullstackDetails">
+            <div className="frontend">
+              {/* <h3>Front-end Technologies</h3> */}
+              <div>
+                <p>Financial Reporting & Analysis</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
+                <p>Accounting Software Proficiency</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
+                <p>Taxation</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+              <div>
+                <p>Auditing</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+              <div>
+                <p>Budgeting and Forecasting</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
+                <p>GAAP / IFRS</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
+                <p>Payroll & Accounts Management</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+               <div>
+                <p>Data Analysis & Reconciliation</p>
+                <div className="skillbg">
+                  <div className="skillonTopDiv"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

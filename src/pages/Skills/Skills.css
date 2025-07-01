@@ -18,21 +18,24 @@
   font-size: 30px;
   color: gray;
 }
+.skills section .accountant,
 .skills section .fullstack {
   padding: 1rem;
 }
+.skills section .accountant h2,
 .skills section .fullstack h2 {
   font-size: 25px;
   font-weight: lighter;
-  font-style: italic;
   font-family: "Times New Roman", Times, serif;
 }
+.skills section .accountant .fullstackDetails,
 .skills section .fullstack .fullstackDetails {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
 }
+.skills section .accountant .fullstackDetails .frontend,
 .skills section .fullstack .fullstackDetails .frontend {
   border: 1px solid black;
   border-radius: 10px;
@@ -42,29 +45,33 @@
   flex-direction: column;
   row-gap: 1rem;
 }
+.skills section .accountant .fullstackDetails .frontend h3,
 .skills section .fullstack .fullstackDetails .frontend h3 {
   font-size: 25px;
   font-weight: lighter;
-  font-style: italic;
   font-family: "Times New Roman", Times, serif;
 }
+.skills section .accountant .fullstackDetails .frontend div,
 .skills section .fullstack .fullstackDetails .frontend div {
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
 }
+.skills section .accountant .fullstackDetails .frontend div p,
 .skills section .fullstack .fullstackDetails .frontend div p {
-  font-size: 15px;
+  font-size: 18px;
+  color: gray;
   font-weight: lighter;
-  font-style: italic;
   font-family: "Times New Roman", Times, serif;
 }
+.skills section .accountant .fullstackDetails .frontend .skillbg,
 .skills section .fullstack .fullstackDetails .frontend .skillbg {
   width: 100%;
   background-color: gray;
   height: 10px;
   border-radius: 10px;
 }
+.skills section .accountant .fullstackDetails .frontend .skillbg .skillonTopDiv, 
 .skills section .fullstack .fullstackDetails .frontend .skillbg .skillonTopDiv {
   width: 75%;
   background-color: rgb(61, 60, 60);
