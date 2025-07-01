@@ -1,0 +1,19 @@
+.resume .resumeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px black;
+  height: 10vh;
+  padding: 1rem;
+}
+.resume .resumeHeader {
+  font-size: 35px;
+  font-weight: lighter;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.resume .resumeHeader .resumeicon {
+  font-size: 30px;
+  color: gray;
+}
