@@ -4,6 +4,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import "./Home.css";
+import { Button } from "@/components/ui/button";
 
 function Home() {
   return (

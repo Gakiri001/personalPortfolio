@@ -22,15 +22,12 @@
   display: flex;
   padding: 2rem;
   justify-content: space-between;
-  background-color: yellow;
 }
 .sectionResume .divExperience {
   width: 50%;
-  background-color: pink;
 }
 .sectionResume .divEducation {
   width: 50%;
-  background-color: blue;
   display: flex;
   /* flex-direction: column; */
   justify-content: flex-end;

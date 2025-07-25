@@ -6,9 +6,10 @@
   flex-direction: column;
 }
 .Home .me h2 {
-  font-size: 100px;
+  font-size: 80px;
   font-weight: lighter;
   /* font-family: 'Times New Roman', Times, serif; */
+  text-align: center;
 }
 .Home .div-buttons {
   width: 60%;
@@ -76,7 +77,7 @@
     width: 50%;
   }
   .Home .divLinks a .reactIcons {
-      width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
   }
 }
