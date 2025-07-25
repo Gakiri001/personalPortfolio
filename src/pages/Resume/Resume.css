@@ -18,17 +18,17 @@
   color: gray;
 }
 
-.sectionResume{
+.sectionResume {
   display: flex;
   padding: 2rem;
   justify-content: space-between;
   background-color: yellow;
 }
-.sectionResume .divExperience{
+.sectionResume .divExperience {
   width: 50%;
   background-color: pink;
 }
-.sectionResume .divEducation{
+.sectionResume .divEducation {
   width: 50%;
   background-color: blue;
   display: flex;

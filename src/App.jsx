@@ -4,7 +4,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Skills from "./pages/Skills/Skills";
 import Resume from "./pages/Resume/Resume";
-import "./assets/global.css"
+import "./assets/global.css";
 
 function App() {
   return (

@@ -58,6 +58,25 @@
 
 @media screen and (max-width: 44.375em) {
   .Home .me h2 {
-  font-size: 20px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .Home .div-buttons {
+    margin-top: 2rem;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .Home .div-buttons .buttonDownload,
+  .Home .div-buttons .buttonMore {
+    font-size: 15px;
+    padding: 5px;
+    width: 50%;
+  }
+  .Home .divLinks a .reactIcons {
+      width: 20px;
+  height: 20px;
   }
 }

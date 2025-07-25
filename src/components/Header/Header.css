@@ -88,24 +88,28 @@
     display: initial;
   }
   .header .header2 ul {
-    position: absolute;
-    padding: 2rem;
-    top: -1rem;
-    right: -280px;
+    position: fixed;
+    top: 0;
+    right: 0;
     width: 220px;
     height: 100vh;
+    padding: 2rem;
     background-color: rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(1.5px);
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    transition: 0.3s ease;
+    transition: transform 0.3s ease;
+    transform: translateX(100%);
+    z-index: 1000;
   }
+
   .header .header2.active ul {
-    right: 0;
+    transform: translateX(0);
   }
+
   .header .header2 ul li {
     padding: 20px 0 20px 40px;
     margin-left: 0;
