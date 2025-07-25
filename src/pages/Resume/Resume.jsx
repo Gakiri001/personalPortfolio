@@ -12,8 +12,8 @@ function Resume() {
         <h2>Resume</h2>
         <FaBlackTie className="resumeicon" />
       </div>
-      <section>
-        <div>
+      <section className="sectionResume">
+        <div className="divExperience">
           <h3>Experience</h3>
               <div>
                 {experience.map((index, i) => (
@@ -37,9 +37,9 @@ function Resume() {
                 ))}                
               </div>
         </div>
-        <div>
+        <div className="divEducation">
           <h3>Education</h3>
-          <div>
+          <div className="mt-12">
             {education.map((eduIndex, i) =>(
               <div key={i}>
                 <div><FaBriefcase/></div>

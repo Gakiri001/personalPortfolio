@@ -6,10 +6,10 @@ import { IoCloseCircleOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
-  const { menuOpen, setMenuOpen } = useState(false);
+  const [ menuOpen, setMenuOpen ] = useState(false);
 
   const handleMenuOpen = () => {
-    // setMenuOpen(true);
+    setMenuOpen(true);
     console.log("open");
   };
 
