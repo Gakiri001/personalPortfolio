@@ -81,11 +81,11 @@
 
 @media screen and (max-width: 44.375rem) {
    .skills {
-    padding-top: 4.5rem;
+    padding-top: 5rem;
   }
   .skills .skillsHeader {
     height: 6vh;
-    background-color: yellow;
+    background-color: red;
   }
   .skills .skillsHeader h2 {
     font-size: 25px;
