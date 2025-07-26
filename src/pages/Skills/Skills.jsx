@@ -1,6 +1,7 @@
 import React from "react";
 import { GiSkills } from "react-icons/gi";
 import "./Skills.css";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 function Skills() {
   return (
@@ -10,9 +11,11 @@ function Skills() {
         <GiSkills className="skillIcon" />
       </div>
       <section>
-        <div className="fullstack">
-          <h2>Full-stack skills</h2>
-          <div className="fullstackDetails">
+        <Card className="fullstack">
+          <CardHeader>
+            <CardTitle className="CardTitle">Full-stack skills</CardTitle>
+          </CardHeader>
+          <CardContent className="fullstackDetails">
             <div className="frontend">
               <h3>Front-end Technologies</h3>
               <div>
@@ -112,11 +115,13 @@ function Skills() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="accountant">
-          <h2>Accountant (CPA)</h2>
-          <div className="fullstackDetails">
+          </CardContent>
+        </Card>
+        <Card className="accountant">
+          <CardHeader>
+            <CardTitle className="CardTitle">Accountant (CPA)</CardTitle>
+          </CardHeader>
+          <CardContent className="fullstackDetails">
             <div className="frontend">
               <div>
                 <p>Financial Reporting & Analysis</p>
@@ -167,8 +172,8 @@ function Skills() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
+          </CardContent>
+        </Card>
       </section>
     </div>
   );

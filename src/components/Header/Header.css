@@ -4,6 +4,8 @@
   align-items: center;
   height: 10vh;
   background-color: #f5f2f2;
+  position: fixed;
+  width: 100%;
 }
 .header .header1 {
   width: 20%;
@@ -67,11 +69,11 @@
     left: 1rem;
     top: 0.5rem;
   }
-   .header .header2 .close {
+  .header .header2 .close {
     font-size: 40px;
     text-align: center;
     color: red;
-   }
+  }
   .header .header2 .hamburger {
     width: 40px;
     height: 40px;

@@ -1,4 +1,5 @@
 .skills {
+  padding-top: 4rem;
 }
 .skills .skillsHeader {
   display: flex;
@@ -21,9 +22,10 @@
 .skills section .accountant,
 .skills section .fullstack {
   padding: 1rem;
+  margin: 1rem;
 }
-.skills section .accountant h2,
-.skills section .fullstack h2 {
+.skills section .accountant .CardTitle,
+.skills section .fullstack .CardTitle {
   font-size: 25px;
   font-weight: lighter;
   font-family: "Times New Roman", Times, serif;
@@ -75,4 +77,36 @@
 .skills section .fullstack .fullstackDetails .frontend .skillbg .skillonTopDiv {
   background-color: rgb(61, 60, 60);
   height: 10px;
+}
+
+@media screen and (max-width: 44.375rem) {
+  .skills .skillsHeader {
+    height: 8vh;
+  }
+  .skills .skillsHeader h2{
+      font-size: 25px;
+  }
+  .skills .skillsHeader .skillIcon {
+  font-size: 25px;
+  }
+  .skills section .accountant .fullstackDetails,
+.skills section .fullstack .fullstackDetails {
+  flex-direction: column;
+}
+.skills section .accountant .fullstackDetails .frontend,
+.skills section .fullstack .fullstackDetails .frontend {
+  width: 100%;
+}
+.skills section .accountant .CardTitle,
+.skills section .fullstack .CardTitle {
+  font-size: 20px;
+}
+.skills section .accountant .fullstackDetails .frontend h3,
+.skills section .fullstack .fullstackDetails .frontend h3 {
+  font-size: 18px;
+}
+.skills section .accountant .fullstackDetails .frontend div p,
+.skills section .fullstack .fullstackDetails .frontend div p {
+  font-size: 15px;
+}
 }
