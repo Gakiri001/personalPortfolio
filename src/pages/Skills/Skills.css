@@ -112,9 +112,10 @@
 }
 @media screen and (max-width: 24rem) {
   .skills {
-    padding-top: 5rem;
+    padding-top: 4.5rem;
   }
   .skills .skillsHeader {
     height: 6vh;
+    background-color: red;
   }
 }
