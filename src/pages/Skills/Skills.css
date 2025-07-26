@@ -80,8 +80,12 @@
 }
 
 @media screen and (max-width: 44.375rem) {
+   .skills {
+    padding-top: 4.5rem;
+  }
   .skills .skillsHeader {
-    height: 8vh;
+    height: 6vh;
+    background-color: yellow;
   }
   .skills .skillsHeader h2 {
     font-size: 25px;
@@ -110,7 +114,7 @@
     font-size: 15px;
   }
 }
-@media screen and (max-width: 24rem) {
+/* @media screen and (max-width: 24rem) {
   .skills {
     padding-top: 4.5rem;
   }
@@ -118,4 +122,4 @@
     height: 6vh;
     background-color: red;
   }
-}
+} */
