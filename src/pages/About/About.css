@@ -74,8 +74,11 @@
   padding: 1rem;
 }
 @media screen and (max-width: 44.375em) {
+  .parentforAbout{
+    padding-top: 5rem;
+  }
   .parentforAbout .headingforAbout {
-    height: 8vh;
+    height: 6vh;
   }
   .parentforAbout .headingforAbout h2 {
     font-size: 25px;
