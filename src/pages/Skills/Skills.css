@@ -46,7 +46,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
-  
 }
 .skills section .accountant .fullstackDetails .frontend h3,
 .skills section .fullstack .fullstackDetails .frontend h3 {
@@ -81,7 +80,7 @@
 }
 
 @media screen and (max-width: 44.375rem) {
-   .skills {
+  .skills {
     padding-top: 5.5rem;
   }
   .skills .skillsHeader {

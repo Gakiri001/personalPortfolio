@@ -74,7 +74,7 @@
   padding: 1rem;
 }
 @media screen and (max-width: 44.375em) {
-  .parentforAbout{
+  .parentforAbout {
     padding-top: 5.5rem;
   }
   .parentforAbout .headingforAbout {

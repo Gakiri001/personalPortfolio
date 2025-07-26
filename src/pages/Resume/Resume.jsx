@@ -22,8 +22,14 @@ function Resume() {
             {experience.map((index, i) => (
               <Card className="cardExperienceSpecific" key={i}>
                 <div className="divIcons">
-                  <div> <FaBriefcase className="icon"/></div>
-                     <div> <FaBriefcase className="icon"/></div>
+                  <div>
+                    {" "}
+                    <FaBriefcase className="icon" />
+                  </div>
+                  <div>
+                    {" "}
+                    <FaBriefcase className="icon" />
+                  </div>
                 </div>
                 <h3 className="ExperienceStation">{index.station}</h3>
                 <h4 className="ExperienceTitle">Title: {index.title}</h4>
@@ -47,15 +53,19 @@ function Resume() {
           </CardContent>
         </Card>
         <Card className="divEducation">
-           <CardHeader>
+          <CardHeader>
             <CardTitle className="CardTitle">Education</CardTitle>
           </CardHeader>
           <CardContent className="EducationContent">
             {education.map((eduIndex, i) => (
               <Card key={i} className="cardEducation">
                 <div className="divIcons">
-                  <div><FaBriefcase className="icon"/></div>
-                  <div><FaBriefcase className="icon"/></div>
+                  <div>
+                    <FaBriefcase className="icon" />
+                  </div>
+                  <div>
+                    <FaBriefcase className="icon" />
+                  </div>
                 </div>
                 <h3>{eduIndex.school}</h3>
                 <p>{eduIndex.course}</p>
