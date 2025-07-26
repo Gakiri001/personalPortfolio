@@ -110,3 +110,11 @@
   font-size: 15px;
 }
 }
+@media screen and (max-width: 24rem) {
+  .skills{
+    padding: 5rem;
+  }
+   .skills .skillsHeader {
+    height: 6vh;
+  }
+}
