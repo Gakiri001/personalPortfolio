@@ -10,13 +10,11 @@ function Header() {
 
   const handleMenuOpen = () => {
     setMenuOpen(true);
-    console.log("open");
   };
 
   const handleMenuClose = () => {
     setMenuOpen(false);
   };
-  console.log("Hello");
 
   return (
     <div className="header">

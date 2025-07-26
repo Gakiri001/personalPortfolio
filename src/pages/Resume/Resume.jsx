@@ -4,6 +4,7 @@ import "./Resume.css";
 import { FaBriefcase } from "react-icons/fa";
 import experience from "../../data/resume";
 import education from "../../data/education";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 function Resume() {
   return (
@@ -13,20 +14,24 @@ function Resume() {
         <FaBlackTie className="resumeicon" />
       </div>
       <section className="sectionResume">
-        <div className="divExperience">
-          <h3>Experience</h3>
-          <div>
+        <Card className="divExperience">
+          <CardHeader>
+            <CardTitle className="CardTitle">Experience</CardTitle>
+          </CardHeader>
+          <CardContent className="ExperienceContent">
             {experience.map((index, i) => (
-              <div key={i}>
-                <div>
-                  <FaBriefcase />
+              <Card className="cardExperienceSpecific" key={i}>
+                <div className="divIcons">
+                  <div> <FaBriefcase className="icon"/></div>
+                     <div> <FaBriefcase className="icon"/></div>
                 </div>
-                <h3>{index.station}</h3>
-                <h4>Title: {index.title}</h4>
+                <h3 className="ExperienceStation">{index.station}</h3>
+                <h4 className="ExperienceTitle">Title: {index.title}</h4>
                 <p>
                   {index.from} - {index.to}
                 </p>
-                <ul>
+                <p className="italic underline">Role and Responsibilities:</p>
+                <ul className="unorderedList">
                   <li>{index.role1}</li>
                   <li>{index.role2}</li>
                   <li>{index.role3}</li>
@@ -37,27 +42,30 @@ function Resume() {
                   <li>{index.role8}</li>
                   <li>{index.role9}</li>
                 </ul>
-              </div>
+              </Card>
             ))}
-          </div>
-        </div>
-        <div className="divEducation">
-          <h3>Education</h3>
-          <div className="mt-12">
+          </CardContent>
+        </Card>
+        <Card className="divEducation">
+           <CardHeader>
+            <CardTitle className="CardTitle">Education</CardTitle>
+          </CardHeader>
+          <CardContent className="EducationContent">
             {education.map((eduIndex, i) => (
-              <div key={i}>
-                <div>
-                  <FaBriefcase />
+              <Card key={i} className="cardEducation">
+                <div className="divIcons">
+                  <div><FaBriefcase className="icon"/></div>
+                  <div><FaBriefcase className="icon"/></div>
                 </div>
                 <h3>{eduIndex.school}</h3>
                 <p>{eduIndex.course}</p>
                 <p>
                   {eduIndex.from} - {eduIndex.to}
                 </p>
-              </div>
+              </Card>
             ))}
-          </div>
-        </div>
+          </CardContent>
+        </Card>
       </section>
     </div>
   );

@@ -1,3 +1,6 @@
+.resume{
+  padding-top: 4rem;
+}
 .resume .resumeHeader {
   display: flex;
   justify-content: space-between;
@@ -22,13 +25,68 @@
   display: flex;
   padding: 2rem;
   justify-content: space-between;
+  column-gap: 2rem;
 }
+.sectionResume .divEducation,
 .sectionResume .divExperience {
   width: 50%;
-}
-.sectionResume .divEducation {
-  width: 50%;
+  padding: 1rem;
   display: flex;
-  /* flex-direction: column; */
-  justify-content: flex-end;
+  row-gap: 1rem;
+}
+.sectionResume .divEducation .CardTitle,
+.sectionResume .divExperience .CardTitle{
+  text-align: center;
+    font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.sectionResume .divEducation .EducationContent,
+.sectionResume .divExperience .ExperienceContent{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.sectionResume .divEducation .EducationContent .cardEducation,
+.sectionResume .divExperience .ExperienceContent .cardExperienceSpecific{
+  padding: 1rem;
+  gap: 1rem;
+  background-color: whitesmoke;
+}
+.sectionResume .divEducation .EducationContent .cardEducation .divIcons,
+.sectionResume .divExperience .ExperienceContent .cardExperienceSpecific .divIcons{
+  display: flex;
+  justify-content: space-between;
+}
+.sectionResume .divEducation .EducationContent .cardEducation .divIcons div,
+.sectionResume .divExperience .ExperienceContent .cardExperienceSpecific .divIcons div{
+  display: grid;
+  place-content: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: gray;
+}
+.sectionResume .divEducation .EducationContent .cardEducation .divIcons div .icon,
+.sectionResume .divExperience .ExperienceContent .cardExperienceSpecific .divIcons div .icon{
+  font-size: 20px;
+  color: white;
+}
+.sectionResume .divEducation .EducationContent .cardEducation h3,
+.sectionResume .divExperience .ExperienceContent .cardExperienceSpecific h3{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.sectionResume .divEducation .EducationContent .cardEducation p,
+.sectionResume .divExperience .ExperienceContent .cardExperienceSpecific p,
+.sectionResume .divExperience .ExperienceContent .cardExperienceSpecific h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.sectionResume .divExperience .ExperienceContent .cardExperienceSpecific .unorderedList{
+  color: gray;
+     font-family: 'Times New Roman', Times, serif;
+     display: flex;
+     flex-direction: column;
+     gap: 0.7rem;
+}
+@media screen and (max-width: 44.375em) {
+  
 }
