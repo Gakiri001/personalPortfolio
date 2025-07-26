@@ -69,6 +69,34 @@
   object-position: center;
 }
 .cardinfoPart,
-.cardPersnalInfo{
+.cardPersnalInfo {
   padding: 1rem;
+}
+@media screen and (max-width: 44.375em) {
+  .parentforAbout .headingforAbout h2 {
+    font-size: 25px;
+  }
+  .parentforAbout .headingforAbout .aboutIcon {
+    font-size: 25px;
+  }
+  .parentforAbout .aboutMeSection {
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .parentforAbout .aboutMeSection .infoPart {
+    width: 100%;
+  }
+  .parentforAbout .aboutMeSection .infoPart .cardTitle {
+    font-size: 20px;
+  }
+  .parentforAbout .aboutMeSection .infoPart p {
+    font-size: 15px;
+  }
+  .parentforAbout .aboutMeSection .imagePart {
+    width: 100%;
+  }
+  .parentforAbout .aboutMeSection .imagePart img {
+    width: 300px;
+    height: 300px;
+  }
 }

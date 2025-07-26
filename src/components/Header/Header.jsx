@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import logo from "../../assets/tech.jpg";
+import logo from "../../assets/hello.jpeg";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -26,7 +26,7 @@ function Header() {
       <div className={`header2 ${menuOpen ? "active" : ""}`}>
         <ul>
           <div id="menu-close" className="close" onClick={handleMenuClose}>
-            <IoCloseCircleOutline />
+            <IoCloseCircleOutline className="closeIcon" />
           </div>
           <li>
             <Link onClick={handleMenuClose} className="link" to="">

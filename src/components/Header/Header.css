@@ -59,17 +59,19 @@
     justify-content: flex-end;
   }
   .header .header2 .close {
-    width: 30px;
-    height: 30px;
-    background-color: var(--color1);
-    color: black;
+    padding: 0.5rem;
     display: grid;
     place-content: center;
-    font-size: 30px;
     border-radius: 50%;
     position: absolute;
-    left: 0.2rem;
+    left: 1rem;
+    top: 0.5rem;
   }
+   .header .header2 .close {
+    font-size: 40px;
+    text-align: center;
+    color: red;
+   }
   .header .header2 .hamburger {
     width: 40px;
     height: 40px;

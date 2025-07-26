@@ -23,7 +23,9 @@ function About() {
         <div className="infoPart">
           <Card className="cardinfoPart">
             <CardHeader>
-              <CardTitle className="cardTitle">Full-Stack Developer, Junior Accountant</CardTitle>
+              <CardTitle className="cardTitle">
+                Full-Stack Developer, Junior Accountant
+              </CardTitle>
             </CardHeader>
             <CardContent>
               <p className="aboutParagraph">
