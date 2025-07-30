@@ -72,7 +72,7 @@
   .header .header2 .close {
     font-size: 40px;
     text-align: center;
-    color: red;
+    color: white;
   }
   .header .header2 .hamburger {
     width: 40px;
@@ -121,5 +121,6 @@
   .header .header2 ul li .link {
     padding: 0.2rem 0.4rem;
     border-radius: 10px;
+    color: white;
   }
 }
