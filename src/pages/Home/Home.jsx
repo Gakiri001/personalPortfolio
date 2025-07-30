@@ -18,16 +18,19 @@ function Home() {
         <button className="buttonDownload">Download Resume</button>
       </div>
       <div className="divLinks">
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/julius-irungu-87ab54362/"
+          target="_blank"
+        >
           <FaLinkedin className="reactIcons text-blue-900 hover:text-blue-400" />
         </a>
-        <a href="">
+        <a href="https://x.com/techForeman1" target="_blank">
           <FaSquareXTwitter className="reactIcons  hover:text-gray-400" />
         </a>
-        <a href="">
+        <a href="https://www.youtube.com/@GlobalJunction-Tech" target="_blank">
           <FaYoutube className="reactIcons text-red-700  hover:text-red-400" />
         </a>
-        <a href="">
+        <a href="https://www.facebook.com/042software" target="_blank">
           <FaFacebook className="reactIcons text-blue-900  hover:text-blue-400" />
         </a>
       </div>

@@ -5,6 +5,7 @@ import About from "./pages/About/About";
 import Skills from "./pages/Skills/Skills";
 import Resume from "./pages/Resume/Resume";
 import "./assets/global.css";
+import Portfolio from "./pages/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/aboutme" element={<About />} />
         <Route path="/skills" element={<Skills />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
   );
