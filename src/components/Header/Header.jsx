@@ -25,32 +25,68 @@ function Header() {
             <IoCloseCircleOutline className="closeIcon" />
           </div>
           <li>
-            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="">
+            <NavLink
+              onClick={handleMenuClose}
+              className={({ isActive }) =>
+                isActive ? "linkActive" : "NavLink"
+              }
+              to=""
+            >
               Home
             </NavLink>
           </li>
           <li>
-            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/aboutme">
+            <NavLink
+              onClick={handleMenuClose}
+              className={({ isActive }) =>
+                isActive ? "linkActive" : "NavLink"
+              }
+              to="/aboutme"
+            >
               About Me
             </NavLink>
           </li>
           <li>
-            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/skills">
+            <NavLink
+              onClick={handleMenuClose}
+              className={({ isActive }) =>
+                isActive ? "linkActive" : "NavLink"
+              }
+              to="/skills"
+            >
               Skills
             </NavLink>
           </li>
           <li>
-            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/resume">
+            <NavLink
+              onClick={handleMenuClose}
+              className={({ isActive }) =>
+                isActive ? "linkActive" : "NavLink"
+              }
+              to="/resume"
+            >
               Resume
             </NavLink>
           </li>
           <li>
-            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/portfolio">
+            <NavLink
+              onClick={handleMenuClose}
+              className={({ isActive }) =>
+                isActive ? "linkActive" : "NavLink"
+              }
+              to="/portfolio"
+            >
               Portfolio
             </NavLink>
           </li>
           <li>
-            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/contact">
+            <NavLink
+              onClick={handleMenuClose}
+              className={({ isActive }) =>
+                isActive ? "linkActive" : "NavLink"
+              }
+              to="/contact"
+            >
               Contact
             </NavLink>
           </li>

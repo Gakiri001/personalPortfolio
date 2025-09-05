@@ -4,25 +4,8 @@ import { GiSkills } from "react-icons/gi";
 import portfolio from "@/data/portfolio";
 import { Card } from "@/components/ui/card";
 import { useSearchParams } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-
-// const Projects = ({
-//   image,
-//   category,
-//   liveLink,
-//   gitHubLink,
-// }) => {
-//   return(
-//     <div>
-//     <img src={image} alt="A picture for the particular project" />
-//     <div>
-//       {
-
-//       }
-//     </div>
-//     </div>
-//   )
-// }
+import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
 
 function Portfolio() {
   const categories = [...new Set(portfolio.map((project) => project.category))];
@@ -55,7 +38,7 @@ function Portfolio() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // Simulate loading delay
+    }, 3000); // Simulate loading delay
   }, []);
 
   const filteredPortfolio =
@@ -68,7 +51,10 @@ function Portfolio() {
   return (
     <>
       {loading ? (
-        <h1 className="loading">Please wait as we load the page content...</h1>
+        <div className="loading-container">
+          <div className="spinner"></div>
+          <p>Loading...</p>
+        </div>
       ) : (
         <div className="portfolio">
           <div className="portfolioHeader">
@@ -76,17 +62,16 @@ function Portfolio() {
             <GiSkills className="portfolioIcon" />
           </div>
           <div>
-            <div>
+            <div className="divCategory">
               {categories.map((project) => (
-                <label key={project}>
-                  <input
-                    type="checkbox"
-                    value="all"
+                <Label key={project} className="labelCategory">
+                  <Checkbox
+                    className="inputCategory"
                     checked={selectedProject.includes(project)}
-                    onChange={() => handleProjectSelect(project)}
+                    onCheckedChange={() => handleProjectSelect(project)}
                   />
                   <span>{project}</span>
-                </label>
+                </Label>
               ))}
             </div>
             <section className="flex flex-wrap justify-center gap-4  projects">
@@ -94,9 +79,7 @@ function Portfolio() {
                 <Card key={i} className="w-[30%] card">
                   <img className="w-[100%]" src={index.image} alt="" />
                   <div>
-                    {index.liveLink && (
-                      <a href={index.liveLink}>Live Link</a>
-                    )}
+                    {index.liveLink && <a href={index.liveLink}>Live Link</a>}
                     {index.gitHubLink && (
                       <a href={index.gitHubLink}>GitHub Link</a>
                     )}

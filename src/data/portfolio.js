@@ -9,7 +9,7 @@ import image7 from "../assets/portfolioProjects/mpesa.png";
 const portfolio = [
   {
     image: image1,
-    category: "frontend",
+    category: "Design",
     liveLink: "https://beth-portfolio.vercel.app/",
     gitHubLink: "https://beth-portfolio.vercel.app/",
   },

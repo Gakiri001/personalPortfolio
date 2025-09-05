@@ -58,6 +58,9 @@
 }
 
 @media screen and (max-width: 44.375em) {
+  .Home {
+    height: 90vh;
+  }
   .Home .me h2 {
     font-size: 28px;
     text-align: center;
