@@ -20,7 +20,7 @@ function About() {
         <FaInfoCircle className="aboutIcon" />
       </div>
       <Card className="aboutMeSection">
-           <div className="imagePart">
+        <div className="imagePart">
           <img src={me} alt="" />
         </div>
         <div className="infoPart">

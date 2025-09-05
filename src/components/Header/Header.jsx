@@ -4,6 +4,7 @@ import "./Header.css";
 import logo from "../../assets/hello.jpeg";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { NavLink } from "react-router-dom";
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -18,43 +19,40 @@ function Header() {
 
   return (
     <div className="header">
-      <div className="header1">
-        <img src={logo} alt="Image about tech" />
-      </div>
       <div className={`header2 ${menuOpen ? "active" : ""}`}>
         <ul>
           <div id="menu-close" className="close" onClick={handleMenuClose}>
             <IoCloseCircleOutline className="closeIcon" />
           </div>
           <li>
-            <Link onClick={handleMenuClose} className="link" to="">
+            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="">
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={handleMenuClose} className="link" to="/aboutme">
+            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/aboutme">
               About Me
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={handleMenuClose} className="link" to="/skills">
+            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/skills">
               Skills
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={handleMenuClose} className="link" to="/resume">
+            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/resume">
               Resume
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={handleMenuClose} className="link" to="/portfolio">
+            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/portfolio">
               Portfolio
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link onClick={handleMenuClose} className="link" to="">
+            <NavLink onClick={handleMenuClose} className={({isActive}) => (isActive ? "linkActive" : "NavLink")} to="/contact">
               Contact
-            </Link>
+            </NavLink>
           </li>
         </ul>
         <div id="menu-btn" className="hamburger" onClick={handleMenuOpen}>
