@@ -79,6 +79,25 @@
 .portfolio .projects {
   padding-top: 2rem;
 }
+.portfolio .card{
+  /* height: 100vh; */
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+.portfolio .card img{
+  object-fit: cover;
+  height: 50%;
+  border-radius: 20px;
+}
+.portfolio .card .divLinks{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 2rem;
+  padding: 1rem;
+}
+.portfolio .card .divcontent{
+  padding: 1rem;
+}
 @media screen and (max-width: 44.375em) {
   .card {
     width: 90%;

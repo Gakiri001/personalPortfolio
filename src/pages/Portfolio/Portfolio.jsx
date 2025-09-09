@@ -6,6 +6,7 @@ import { Card } from "@/components/ui/card";
 import { useSearchParams } from "react-router-dom";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 function Portfolio() {
   const categories = [...new Set(portfolio.map((project) => project.category))];
@@ -76,15 +77,19 @@ function Portfolio() {
             </div>
             <section className="flex flex-wrap justify-center gap-4  projects">
               {filteredPortfolio.map((index, i) => (
-                <Card key={i} className="w-[30%] card">
+                <div key={i} className="w-[30%] card">
                   <img className="w-[100%]" src={index.image} alt="" />
-                  <div>
-                    {index.liveLink && <a href={index.liveLink}>Live Link</a>}
+                  <div className="divLinks">
+                    {index.liveLink && <a href={index.liveLink} className="flex text-[15px] gap-1 text-gray-500"><span><FaExternalLinkAlt/></span>Live Link</a>}
                     {index.gitHubLink && (
-                      <a href={index.gitHubLink}>GitHub Link</a>
+                      <a href={index.gitHubLink} className="flex text-[15px] gap-1 text-gray-500"><span><FaExternalLinkAlt/></span>GitHub Link</a>
                     )}
                   </div>
-                </Card>
+                  <div className="divcontent">
+                    <h2 className="text-2xl mb-2">{index.projectName}</h2>
+                    <p className="text-[15px]">{index.description}</p>
+                  </div>
+                </div>
               ))}
             </section>
           </div>
