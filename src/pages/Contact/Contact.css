@@ -50,6 +50,18 @@
 }
 
 @media screen and (max-width: 44.375em) {
+  .contact .contactHeader {
+    height: 6vh;
+  }
+  .contact .contactHeader h2{
+    font-size: 25px;
+  }
+  .contact .contactHeader .contactIcon{
+    font-size: 25px;
+  }
+  .contact .talkdiv h2{
+    font-size: 25px;
+  }
   .contact form .divpart1{
     flex-direction: column;
     row-gap: 2rem;
@@ -59,12 +71,19 @@
   .contact form .divMessage{
     width: 100%;
   }
+    .contact form .divpart1 .divName label,
+  .contact form .divpart1 .divEmail label,
+  .contact form .divMessage label{
+    font-size: 15px;
+  }
   .contact form .divpart1 .divName .input,
   .contact form .divpart1 .divEmail .input,
   .contact form .divMessage .textarea{
     width: 100%;
+    font-size: 15px;
   }
   .divsubmit input{
+    font-size: 15px;
     padding: 0.5rem 5rem;
   }
 }

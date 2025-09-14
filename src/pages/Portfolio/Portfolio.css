@@ -121,6 +121,18 @@
   .card {
     width: 90%;
   }
+  .portfolio .portfolioHeader {
+    height: 6vh;
+  }
+  .portfolio .portfolioHeader h2{
+    font-size: 25px;
+  }
+  .portfolio .portfolioHeader .portfolioIcon {
+    font-size: 25px;
+  }
+  .portfolio .projects{
+    row-gap: 2rem;
+  }
   .portfolio .card img {
     height: fit-content;
   }
