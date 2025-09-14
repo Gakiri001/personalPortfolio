@@ -111,6 +111,11 @@
   background-color: rgb(175, 173, 173);
   padding: 0.5rem;
   border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
 }
 @media screen and (max-width: 44.375em) {
   .card {
@@ -118,5 +123,11 @@
   }
   .portfolio .card img {
     height: fit-content;
+  }
+  .portfolio .card .divTechs {
+    padding: 0.5rem;
+  }
+  .portfolio .card .divTechs p {
+    font-size: 12px;
   }
 }

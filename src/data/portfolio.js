@@ -7,6 +7,7 @@ import image6 from "../assets/portfolioProjects/beba.png";
 import image7 from "../assets/portfolioProjects/eduguide.png";
 import bebabebaFigma from "../assets/portfolioProjects/BebabebaFigma2.png";
 import zaphTours from "../assets/portfolioProjects/zaphTours.png";
+import mpesaa from "../assets/portfolioProjects/mpesaa.png"
 
 const portfolio = [
   {
@@ -112,25 +113,22 @@ const portfolio = [
     image: bebabebaFigma,
     tech1: "Design",
     tech2: "Figma",
-    //tech3: "postgres",
-    //tech4: "Express",
     projectName: "BebaBeba Car Rental Figma Design",
     description:
       "I designed a modern, user-friendly car rental website prototype in Figma, focusing on clean layouts, intuitive navigation, and seamless booking experiences. The design highlights car listings with high-quality images, detailed specifications, and pricing, allowing users to compare and reserve vehicles easily.",
     category: "Design",
     liveLink:
       "https://www.figma.com/design/yltaQ8tnvyh42DmeSDm6xP/Bebabeba-Car-Rental-System?node-id=0-1&p=f&t=ualfqHKaQzAkUxri-0",
-    //gitHubLink: "https://beth-portfolio.vercel.app/",
   },
   {
-    image: zaphTours,
+    image: mpesaa,
     tech1: "React",
     tech2: "MongoDB",
     tech3: "postgres",
     tech4: "Express",
-    projectName: "Zaph Tours Design",
+    projectName: "M-pesa Payment",
     description:
-      "A video-based LMS enabling students to purchase courses, track progress, and learn, while tutors monetize via PayPal.",
+    "I developed an M-Pesa transactional website where users can enter a phone number, account number, and amount to initiate payments. Transactions are securely processed using the Daraja API and Ngrok, ensuring seamless integration, real-time testing, and a reliable digital payment experience.",
     category: "backend",
     liveLink: "https://beth-portfolio.vercel.app/",
     gitHubLink: "https://beth-portfolio.vercel.app/",
