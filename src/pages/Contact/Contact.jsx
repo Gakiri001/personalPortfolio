@@ -13,17 +13,17 @@ function Contact() {
         <h2 className="text-3xl underline font-[Times_New_Roman]">Lets Talk</h2>
       </div>
       <form action="" className="form">
-        <div className="flex gap-x-4 justify-between">
-          <div className="bg-red-400">
-            <label htmlFor="">Enter your Name</label>
+        <div className="flex gap-x-4 justify-between divpart1">
+          <div className=" flex flex-col w-[50%] gap-y-2 divName">
+            <label htmlFor="" className="text-[18px]">Enter your Name.</label>
             <input
               type="text"
               placeholder="Name"
               className="border-1 border-black rounded-2xl input"
             />
           </div>
-          <div>
-            <label htmlFor="">Enter your Email</label>
+          <div className="flex flex-col w-[50%] gap-y-2 divEmail">
+            <label htmlFor="" className="text-[18px]">Enter your Email.</label>
             <input
               type="email"
               placeholder="Email"
@@ -31,10 +31,13 @@ function Contact() {
             />
           </div>
         </div>
-        <div className="">
-          <textarea width="100%" name="" id="" className="textarea">
-            oyah
+        <div className="w-[50%] flex flex-col gap-y-2 divMessage">
+          <label htmlFor="" className="text-[18px]">Type Your Message.</label>
+          <textarea width="100%" name="" id="" placeholder="Description" className="p-3 textarea">
           </textarea>
+        </div>
+        <div className="flex justify-center items-center divsubmit">
+          <input type="submit" className="bg-gray-400"/>
         </div>
       </form>
     </div>

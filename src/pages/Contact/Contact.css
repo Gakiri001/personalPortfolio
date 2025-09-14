@@ -31,11 +31,40 @@
 }
 .contact form .input {
   padding: 0.5rem;
-  width: 50%;
+  width: 90%;
   height: 3rem;
 }
 .textarea {
   border: solid 1px black;
-  width: 50%;
-  height: 6rem;
+  width: 90%;
+  height: 10rem;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+.divsubmit input{
+  padding: 0.5rem 10rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 44.375em) {
+  .contact form .divpart1{
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .contact form .divpart1 .divName,
+  .contact form .divpart1 .divEmail,
+  .contact form .divMessage{
+    width: 100%;
+  }
+  .contact form .divpart1 .divName .input,
+  .contact form .divpart1 .divEmail .input,
+  .contact form .divMessage .textarea{
+    width: 100%;
+  }
+  .divsubmit input{
+    padding: 0.5rem 5rem;
+  }
 }
