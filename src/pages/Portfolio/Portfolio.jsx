@@ -77,17 +77,43 @@ function Portfolio() {
             </div>
             <section className="flex flex-wrap justify-center gap-4  projects">
               {filteredPortfolio.map((index, i) => (
-                <div key={i} className="w-[30%] card">
+                <div key={i} className="w-[40%] card">
                   <img className="w-[100%]" src={index.image} alt="" />
                   <div className="divLinks">
-                    {index.liveLink && <a href={index.liveLink} className="flex text-[15px] gap-1 text-gray-500"><span><FaExternalLinkAlt/></span>Live Link</a>}
+                    {index.liveLink && (
+                      <a
+                        href={index.liveLink}
+                        target="_blank"
+                        className="flex text-[15px] gap-1 text-gray-500"
+                      >
+                        <span>
+                          <FaExternalLinkAlt />
+                        </span>
+                        Live Link
+                      </a>
+                    )}
                     {index.gitHubLink && (
-                      <a href={index.gitHubLink} className="flex text-[15px] gap-1 text-gray-500"><span><FaExternalLinkAlt/></span>GitHub Link</a>
+                      <a
+                        href={index.gitHubLink}
+                        target="_blank"
+                        className="flex text-[15px] gap-1 text-gray-500"
+                      >
+                        <span>
+                          <FaExternalLinkAlt />
+                        </span>
+                        GitHub Link
+                      </a>
                     )}
                   </div>
                   <div className="divcontent">
                     <h2 className="text-2xl mb-2">{index.projectName}</h2>
                     <p className="text-[15px]">{index.description}</p>
+                  </div>
+                  <div className="divTechs">
+                    {index.tech1 && <p>{index.tech1}</p>}
+                    {index.tech2 && <p>{index.tech2}</p>}
+                    {index.tech3 && <p>{index.tech3}</p>}
+                    {index.tech4 && <p>{index.tech4}</p>}
                   </div>
                 </div>
               ))}
