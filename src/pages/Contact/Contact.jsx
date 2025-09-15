@@ -150,7 +150,7 @@ function Contact() {
           </div>
           <div className="w-[50%] flex flex-col gap-y-2 divMessage">
             <label htmlFor="" className="text-[18px]">
-              Type Your message.
+              Type your message.
             </label>
             <textarea
               width="100%"
