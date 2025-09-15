@@ -7,11 +7,22 @@ import "./Home.css";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { useNavigate } from "react-router-dom";
+import { toast } from "sonner";
 
 function Home() {
   const navigate = useNavigate()
   function handleContact() {
     navigate("/contact")
+  }
+  const handleDownload = () => {
+    toast("Check your Downloads for the CV.", { 
+      duration: 5000,
+      style: {
+        background: "green",
+        color: "white"
+      }
+    }
+    )
   }
   return (
     <div className="Home">
@@ -58,7 +69,7 @@ function Home() {
       transition={{duration:1, delay:1}}
       >
         <button className="buttonMore" onClick={handleContact}>Contact Me</button>
-        <a className="buttonDownload" href="/JuliusIrunguCV.pdf" download="Julius-Irungu-CV.pdf">Download Resume</a>
+        <a onClick={handleDownload} className="buttonDownload" href="/JuliusIrunguCV.pdf" download="Julius-Irungu-CV.pdf">Download Resume</a>
       </motion.div>
 
       <motion.div 
