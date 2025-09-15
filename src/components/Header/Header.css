@@ -8,8 +8,9 @@
   width: 100%;
 }
 .header .header1 {
-  width: 20%;
-  padding: 2rem;
+  display: none;
+  /* width: 20%;
+  padding: 2rem; */
 }
 .header .header1 img {
   border-radius: 50%;
@@ -60,8 +61,16 @@
   /* .header .header1 {
     width: 40%;
   } */
+  .header .header1 {
+    display: initial;
+    width: 60;
+    padding-left: 1rem;
+  }
+  .header .header1 h1{
+    font-size: 20px;
+  }
   .header .header2 {
-    width: 100%;
+    width: 40%;
     justify-content: flex-end;
   }
   .header .header2 .close {

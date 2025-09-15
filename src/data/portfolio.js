@@ -130,8 +130,7 @@ const portfolio = [
     description:
     "I developed an M-Pesa transactional website where users can enter a phone number, account number, and amount to initiate payments. Transactions are securely processed using the Daraja API and Ngrok, ensuring seamless integration, real-time testing, and a reliable digital payment experience.",
     category: "backend",
-    liveLink: "https://beth-portfolio.vercel.app/",
-    gitHubLink: "https://beth-portfolio.vercel.app/",
+    gitHubLink: "https://github.com/Gakiri001/Mpesa-Daraja-Api-NODE.JS-master",
   },
 ];
 

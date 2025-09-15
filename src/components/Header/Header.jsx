@@ -19,6 +19,7 @@ function Header() {
 
   return (
     <div className="header">
+      <div className="header1" ><h1>Julius <span className="text-gray-400">Irungu</span></h1></div>
       <div className={`header2 ${menuOpen ? "active" : ""}`}>
         <ul>
           <div id="menu-close" className="close" onClick={handleMenuClose}>

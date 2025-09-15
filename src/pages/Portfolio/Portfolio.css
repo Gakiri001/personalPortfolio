@@ -118,6 +118,9 @@
   font-size: 15px;
 }
 @media screen and (max-width: 44.375em) {
+  .portfolio{
+    padding-top: 5.5rem;
+  }
   .card {
     width: 90%;
   }

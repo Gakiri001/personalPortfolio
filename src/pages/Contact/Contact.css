@@ -50,6 +50,9 @@
 }
 
 @media screen and (max-width: 44.375em) {
+  .contact{
+    padding-top: 5.5rem;
+  }
   .contact .contactHeader {
     height: 6vh;
   }
