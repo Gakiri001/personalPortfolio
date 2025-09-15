@@ -7,10 +7,12 @@ import Resume from "./pages/Resume/Resume";
 import "./assets/global.css";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import Contact from "./pages/Contact/Contact";
+import { Toaster } from "./components/ui/sonner";
 
 function App() {
   return (
     <BrowserRouter>
+    <Toaster/>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

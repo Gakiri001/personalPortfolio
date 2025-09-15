@@ -6,14 +6,15 @@ import { FaFacebook } from "react-icons/fa";
 import "./Home.css";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+  const navigate = useNavigate()
+  function handleContact() {
+    navigate("/contact")
+  }
   return (
     <div className="Home">
-      {/* <div className="me">
-        <h2>Hello, I'm Julius.</h2>
-        <h2>Full-stack Developer</h2>
-      </div> */}
       <motion.div
         className="me"
         initial={{opacity:0, y: -50}}
@@ -39,7 +40,7 @@ function Home() {
         <h2>
           <Typewriter
           options={{
-            strings:["Full-stack Developer", "Data & AI Enthuasiast", "Junior Accountant"],
+            strings:["Full-stack Developer.", "Data & AI Enthuasiast.", "Junior Accountant."],
             autoStart: true,
             loop:true,
             delay: 70,
@@ -48,10 +49,6 @@ function Home() {
           />
           </h2>
       </motion.div>
-      {/* <div className="div-buttons">
-        <button className="buttonMore">Contact Me</button>
-        <button className="buttonDownload">Download Resume</button>
-      </div> */}
 
       {/*Buttons animate from right  */}
       <motion.div
@@ -60,8 +57,8 @@ function Home() {
       animate={{x:0, opacity:1}}
       transition={{duration:1, delay:1}}
       >
-        <button className="buttonMore">Contact Me</button>
-        <button className="buttonDownload">Download Resume</button>
+        <button className="buttonMore" onClick={handleContact}>Contact Me</button>
+        <a className="buttonDownload" href="/JuliusIrunguCV.pdf" download="Julius-Irungu-CV.pdf">Download Resume</a>
       </motion.div>
 
       <motion.div 
