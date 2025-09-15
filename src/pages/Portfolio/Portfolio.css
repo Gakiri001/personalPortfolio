@@ -118,7 +118,7 @@
   font-size: 15px;
 }
 @media screen and (max-width: 44.375em) {
-  .portfolio{
+  .portfolio {
     padding-top: 5.5rem;
   }
   .card {
@@ -127,13 +127,13 @@
   .portfolio .portfolioHeader {
     height: 6vh;
   }
-  .portfolio .portfolioHeader h2{
+  .portfolio .portfolioHeader h2 {
     font-size: 25px;
   }
   .portfolio .portfolioHeader .portfolioIcon {
     font-size: 25px;
   }
-  .portfolio .projects{
+  .portfolio .projects {
     row-gap: 2rem;
   }
   .portfolio .card img {

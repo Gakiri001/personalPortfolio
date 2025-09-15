@@ -7,7 +7,7 @@ import image6 from "../assets/portfolioProjects/beba.png";
 import image7 from "../assets/portfolioProjects/eduguide.png";
 import bebabebaFigma from "../assets/portfolioProjects/BebabebaFigma2.png";
 import zaphTours from "../assets/portfolioProjects/zaphTours.png";
-import mpesaa from "../assets/portfolioProjects/mpesaa.png"
+import mpesaa from "../assets/portfolioProjects/mpesaa.png";
 
 const portfolio = [
   {
@@ -128,7 +128,7 @@ const portfolio = [
     tech4: "Express",
     projectName: "M-pesa Payment",
     description:
-    "I developed an M-Pesa transactional website where users can enter a phone number, account number, and amount to initiate payments. Transactions are securely processed using the Daraja API and Ngrok, ensuring seamless integration, real-time testing, and a reliable digital payment experience.",
+      "I developed an M-Pesa transactional website where users can enter a phone number, account number, and amount to initiate payments. Transactions are securely processed using the Daraja API and Ngrok, ensuring seamless integration, real-time testing, and a reliable digital payment experience.",
     category: "backend",
     gitHubLink: "https://github.com/Gakiri001/Mpesa-Daraja-Api-NODE.JS-master",
   },
