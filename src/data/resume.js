@@ -15,19 +15,19 @@ const experience = [
     role5:
       "Deploy and host the website on a cloud platform, ensuring performance, uptime, and scalability.",
   },
-  {
-    station: "Beth Epharaim",
-    from: "10/2024",
-    to: "11/2024",
-    title: `Frontend Web Developer → Internship & short-term contract`,
-    link: "https://beth-portfolio.vercel.app/",
-    role1:
-      "Translated wireframes into functional code to bring visual concepts to life.",
-    role2: "Generated a user-friendly interface by utilising React JS.",
-    role3:
-      "Ensured seamless visuals across devices through responsive web design.",
-    role4: "Optimised web pages for maximum speed and scalability.",
-  },
+  // {
+  //   station: "Beth Epharaim",
+  //   from: "10/2024",
+  //   to: "11/2024",
+  //   title: `Frontend Web Developer → Internship & short-term contract`,
+  //   link: "https://beth-portfolio.vercel.app/",
+  //   role1:
+  //     "Translated wireframes into functional code to bring visual concepts to life.",
+  //   role2: "Generated a user-friendly interface by utilising React JS.",
+  //   role3:
+  //     "Ensured seamless visuals across devices through responsive web design.",
+  //   role4: "Optimised web pages for maximum speed and scalability.",
+  // },
   {
     station: "Teach2Give Company",
     from: "05/2024",
