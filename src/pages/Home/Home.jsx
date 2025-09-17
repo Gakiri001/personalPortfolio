@@ -75,7 +75,7 @@ function Home() {
         <a
           onClick={handleDownload}
           className="buttonDownload"
-          href="/JuliusIrunguCV.pdf"
+          href="/Julius-Irungu-CV.pdf"
           download="Julius-Irungu-CV.pdf"
         >
           Download Resume
