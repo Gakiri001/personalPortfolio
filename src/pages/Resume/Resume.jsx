@@ -36,6 +36,8 @@ function Resume() {
                 <p>
                   {index.from} - {index.to}
                 </p>
+                {index.link &&
+                   <a href={index.link} target="_blank" className="text-blue-400 underline">Live Link</a>}
                 <p className="italic underline">Role and Responsibilities:</p>
                 <ul className="unorderedList">
                   <li>{index.role1}</li>

@@ -2,8 +2,8 @@ const experience = [
   {
     station: "Wheels & Badges ltd",
     from: "04/2025",
-    to: "current",
-    title: "Full-stack Developer - Website Development Contract",
+    to: "08-2025",
+    title: "Full-stack Developer → Internship",
     role1:
       "Design and maintain a responsive and user-friendly interface to enhance customer experience.",
     role2:
@@ -19,7 +19,7 @@ const experience = [
     station: "Beth Epharaim",
     from: "10/2024",
     to: "11/2024",
-    title: "Frontend Web Developer - Website Development Contract",
+    title: `Frontend Web Developer → Internship & short-term contract`,
     link: "https://beth-portfolio.vercel.app/",
     role1:
       "Translated wireframes into functional code to bring visual concepts to life.",
@@ -32,7 +32,7 @@ const experience = [
     station: "Teach2Give Company",
     from: "05/2024",
     to: "08/2024",
-    title: "FullStack Web Developer Intern",
+    title: "FullStack Developer → Internship",
     role1:
       "Developed innovative web applications to improve user experience and optimized website performance and responsiveness.",
     role2:
