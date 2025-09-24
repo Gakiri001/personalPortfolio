@@ -107,7 +107,7 @@ const portfolio = [
     description:
       "I created WheelsandBadges, a full-stack e-commerce platform for car spare parts and mechanic services. Users can browse and order parts, book professional mechanic assistance, and complete payments seamlessly via M-Pesa. The site ensures a responsive, user-friendly, and reliable shopping and service experience.",
     category: "backend",
-    gitHubLink: "https://github.com/Gakiri001/Wheels-and-Badged-master",
+    liveLink: "https://wheels-and-badged-frontend.onrender.com/",
   },
   {
     image: bebabebaFigma,

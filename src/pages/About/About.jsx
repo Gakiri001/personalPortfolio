@@ -91,9 +91,6 @@ function About() {
                     <span>Name: </span>Julius Irungu
                   </p>
                   <p className="personalIntel">
-                    <span>Age: </span>22
-                  </p>
-                  <p className="personalIntel">
                     <span>Address </span>Nairobi, Kenya
                   </p>
                   <p className="personalIntel">
