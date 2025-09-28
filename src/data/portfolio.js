@@ -95,6 +95,7 @@ const portfolio = [
     description:
       "I built EduGuide, a full-stack LMS where students can browse and filter courses by category or sort by price. Users purchase courses securely via PayPal, and the system tracks progress to ensure structured learning. The platform offers a seamless, user-friendly experience for both students and instructors.",
     category: "backend",
+    liveLink: "https://e-learning-eduguide-frontend.onrender.com",
     gitHubLink: "https://github.com/Gakiri001/e-learning-EduGuide-",
   },
   {
