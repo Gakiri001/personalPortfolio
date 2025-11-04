@@ -1,6 +1,21 @@
 const experience = [
   {
-    station: "Wheels & Badges ltd",
+    station: "Ministry of Education (MOE)",
+    from: "10/2025",
+    to: "current",
+    title: "ICT Officer → Internship",
+    role1: "Supporting E-Learning and developing content in line with the schemes of work.",
+    role2: "Providing classroom support and training of School teachers in the use of digital literacy devices.",
+    role3: "Supporting the implementation of the Digital Literacy Program.",
+    role4: "Carrying out innovations to enable schools to improve the use of digital learning.",
+    role5: "Providing support in safe, secure, and ethical use of technology in learning.",
+    role6: "Assist teachers by integrating ICT in the delivery of teaching, learning, assessment, and reporting.",
+    role7: "Supporting school staff with the development and production of key school policies and procedures",
+    role8: "Providing first-line support and maintenance of ICT services in the schools",
+    role9: "Performing duties assigned by the Supervisor/Sub-County Director of Education"
+  },
+  {
+    station: "Wheels & Badges ltdf",
     from: "04/2025",
     to: "08-2025",
     title: "Full-stack Developer → Internship",
