@@ -15,7 +15,7 @@ const experience = [
     role9: "Performing duties assigned by the Supervisor/Sub-County Director of Education"
   },
   {
-    station: "Wheels & Badges ltdf",
+    station: "Wheels & Badges ltd",
     from: "04/2025",
     to: "08-2025",
     title: "Full-stack Developer → Internship",
